@@ -1,0 +1,339 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Alice', serif;
+}
+.container{
+    height: 15vh;
+    width: 100%;
+}
+.navbar{
+    width: 88%;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 18px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:  #000000;
+}
+.navbar ul li a:hover{
+    background-color: black;
+    color: white;
+    transition: background-color 1s ease-out;
+    
+}
+.center_content{
+align-items: center;
+display: flex;
+width: 90%;
+min-height: 80vh;
+margin:auto;
+}
+.main_title{
+    font-size: 48px;
+}
+.button{
+    margin-top:20px;
+    font-size: 22px;
+    padding: 15px;
+    border-radius: 8px;
+    border-style: solid;
+    background-color: white;
+    color:#000000;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: #000000;
+    transition: background-color 1s ease-out;
+}
+.button a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+.button a:hover{
+    cursor: pointer;
+    color: white;
+}
+.img1{
+    height: -35vh;
+    
+}
+
+/*Page2 About us+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+.part2{
+    align-items: center;
+display: flex;
+width: 90%;
+min-height: 80vh;
+margin:auto;
+
+}
+.left_content2{
+    position:relative;
+
+    width: 600px;
+    height: 800px;
+}
+
+.calendar{
+    top: 350px;
+    position:absolute;
+    left:100px;
+    height: 50px;
+    width: 150px;
+}
+#img2{ 
+    width: 50px;
+    height: 50px;
+}
+#calendar5{
+   
+    margin-left: 65px;
+    margin-top: -53px;
+}
+.clients{
+    position:absolute;
+    height: 50px;
+    width: 200px;
+    left: 400px;
+    top: 350px;
+}
+#img3{ 
+    width: 35px;
+    height: 45px;
+
+}
+#clients5{
+    margin-left: 65px;
+    margin-top: -53px;
+}
+.text_p2{
+    position:absolute;
+    width: 500px;
+    height: 200px;
+    font-size:22px;
+}
+.button2{
+    position:absolute;
+    margin-top:200px;
+    font-size: 22px;
+    padding: 15px;
+    border-radius: 8px;
+    border-style: solid;
+    background-color: white;
+    color:#000000;
+}
+.button2:hover{
+    cursor: pointer;
+    background-color: #000000;
+    transition: background-color 1s ease-out;
+}
+.button2 a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+.button2 a:hover{
+    cursor: pointer;
+    color: white;
+}
+.photo_p2{
+    position: absolute;
+    left: 850px;
+    top: 150px;
+    height:600px;
+    width: 500px;
+}
+/*Page3 Contacts++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++=*/
+
+.part3{
+    align-items: center;
+display: flex;
+width: 90%;
+min-height: 80vh;
+margin:auto;
+}
+.right_content3{
+    margin-left: 30px;
+    position: relative;
+    height: 600px;
+    width: 700px;
+
+
+}
+.inform{
+    position:absolute;
+    margin-left: 50px;
+    font-size: 20px;
+    width: 500px;
+
+}
+.loc{
+
+    list-style-image: url('img/loc.png');
+    
+}
+.fac{
+    margin-top: 20px;
+    list-style-image: url('img/fsc.png');
+}
+.inst{
+    margin-top: 20px;
+    list-style-image: url('img/inst.png');
+}
+.location{
+    position:absolute;
+    height: 150px;
+    width: 500px;
+    
+}
+.loc_logo{
+    position: absolute;
+    width: 50px;
+    height:65px;
+    margin-top: 0;
+}
+
+.contacting{
+    position:absolute;
+    top: 350px;
+}
+
+.call-title{
+    font-size: 20px;
+}
+.button3{
+    margin-top: 25px;
+    font-size: 25px;
+    padding: 20px;
+    border-radius: 8px;
+    border-style: solid;
+    background-color: white;
+    color:#000000;
+}
+.button3:hover{
+    cursor: pointer;
+    background-color: #000000;
+    transition: background-color 1s ease-out;
+}
+.button3 a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+.button3 a:hover{
+    cursor: pointer;
+    color: white;
+}
+/*page4 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++=*/
+.part4{
+    align-items: center;
+display: flex;
+width: 90%;
+min-height: 80vh;
+margin:auto;
+}
+.price1{
+    margin-top: 50px;
+    margin-left: 200px;
+    position: relative;
+}
+.standart{
+    width: 30vh;
+}
+.price2{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.premium{
+    width: 30vh;
+}
+.premium2{
+    width: 30vh;
+}
+.but1{
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 110px;
+    font-size: 22px;
+    padding: 10px;
+    border-radius: 8px;
+    border-style: solid;
+    background-color: white;
+    color:#000000;
+    z-index:2;
+}
+.but1:hover{
+    cursor: pointer;
+    background-color: #000000;
+    transition: background-color 1s ease-out;
+}
+.but1 a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+.but1 a:hover{
+    cursor: pointer;
+    color: white;
+}
+.but2{
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 110px;
+    font-size: 22px;
+    padding:10px;
+    border-radius: 8px;
+    border-style: solid;
+    background-color: white;
+    color:#000000;
+}
+.but2:hover{
+    cursor: pointer;
+    background-color: #000000;
+    transition: background-color 1s ease-out;
+}
+.but2 a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+.but2 a:hover{
+    cursor: pointer;
+    color: white;
+}
+.but3{
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 110px;
+    font-size: 22px;
+    padding: 10px;
+    border-radius: 8px;
+    border-style: solid;
+    background-color: white;
+    color:#000000;
+}
+.but3:hover{
+    cursor: pointer;
+    background-color: #000000;
+    transition: background-color 1s ease-out;
+}
+.but3 a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+.but3 a:hover{
+    cursor: pointer;
+    color: white;
+}
